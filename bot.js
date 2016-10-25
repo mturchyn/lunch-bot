@@ -4,8 +4,9 @@ var config = require('./conf/config.json');
 
 var bot = new Lunchbot({
     token: config.botSlackToken,
-    name: 'My Bot',
+    name: 'Lunchbot',
     dbPath: './data/lunchbot.db',
-    googleApiConfig: config.googleApi
+    googleApiConfig: config.googleApi,
+    mongodbUrl:config.mongodbUrl
 });
 bot.run();
