@@ -1,9 +1,11 @@
 var Lunchbot = require('./lib/lunchbot');
+var config = require('./conf/config.json');
 
 
 var bot = new Lunchbot({
-    token: '', // Add a bot https://my.slack.com/services/new/bot and put the token
+    token: config.botSlackToken,
     name: 'My Bot',
-    dbPath: './data/lunchbot.db'
+    dbPath: './data/lunchbot.db',
+    googleApiConfig: config.googleApi
 });
 bot.run();
