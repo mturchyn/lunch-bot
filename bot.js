@@ -1,5 +1,5 @@
 var Lunchbot = require('./lib/lunchbot');
-var config = require('./conf/config.json');
+var config = require('./conf/conf.json');
 
 
 var bot = new Lunchbot({
