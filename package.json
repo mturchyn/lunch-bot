@@ -23,7 +23,10 @@
     "sqlite3": "^3.0.10",
     "mongodb": "^2.2.11",
     "winston": "^2.2.0",
-    "google-spreadsheet":"^2.0.3"
+    "node-schedule": "^1.2.0",
+    "google-spreadsheet":"^2.0.3",
+    "cheerio"    : "latest",
+    "html-entities": "latest"
   },
   "devDependencies": {
     "xo": "^0.5.2"
